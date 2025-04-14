@@ -155,7 +155,7 @@ cd upload_service_test_task
 ### Через Docker
 Запустите контейнер через docker compose и выполните следующую команду в консоли:
 ```bash
-docker-compose run -it upload-service pytest upload_service/tests/ -v
+docker-compose run --rm upload-service pytest upload_service/tests/ -v
 ```
 
 ### Локально
